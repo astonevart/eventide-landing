@@ -1,0 +1,104 @@
+body{
+    background: #fff;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    color: #828282;
+    font-weight: 400;
+    min-width: 320px;
+}
+a{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #0a94b2;
+}
+a:hover{
+    color: #0a94b2;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+section{
+    position: relative;
+}
+h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+/*================================header============================*/
+#header{
+    background: url("../img/4.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+}
+.section-center{
+    max-width: 550px;
+    display: inline-block;
+}
+.section-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.section-row{
+    display: table-row;
+}
+.section-cell{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#header h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+#header p{
+    font-size: 20px;
+    color: #fff;
+}
+.btn{
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    transition: background .5s;
+}
+.btn-primary{
+    background: #7ea4e8;
+}
+.btn-primary:hover{
+    background: #6786c2;
+}
+.btn-default{
+    background: #6a7079;
+}
+.btn-default:hover{
+    background: #565d66;
+    color: #fff;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media screen and (max-width : 992px) {
+
+}
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+
+}
+/* Extra Small Devices, Phones */
+@media screen and (max-width : 480px) {
+
+}
