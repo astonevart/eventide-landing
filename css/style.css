@@ -16,7 +16,7 @@ a:hover{
     color: #0a94b2;
 }
 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 section{
@@ -86,13 +86,115 @@ h2{
     background: #565d66;
     color: #fff;
 }
+/*========================================speakers=======================================*/
+#speakers{
+    padding: 90px 0;
+    border-bottom: 2px solid #f0f0f1;
+}
+#speakers h2{
+    color: #828689;
+}
+.large{
+    color: #828689;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.section-tabs{
+    border: 3px solid #ececec;
+    border-radius: 2px;
+}
+.section-tabs .nav-tabs li:not(.active){
+    background: #ececec;
+}
+.section-tabs .nav-tabs.nav-justified > li a,
+.section-tabs .nav-tabs.nav-justified > .active > a,
+.section-tabs .nav-tabs.nav-justified > .active > a:focus,
+.section-tabs .nav-tabs.nav-justified > .active > a:hover {
+    border-radius: 0;
+    border: none;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    outline: 0;
+    color: #9097a1;
+}
+.section-tabs .nav-tabs.nav-justified > li a{
+    color: #abb1ba;
+}
+.section-tabs .tab-content{
+    padding: 25px 20px;
+}
+.section-tabs .tab-content ul{
+    padding-left: 10px;
+}
+.section-tabs .tab-content ul li{
+    line-height: 30px;
+}
+.section-tabs .tab-content ul i{
+    font-size: 15px;
+    color: #2cc7c1;
+    margin-right: 10px;
+}
+.speakers-head{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.speakers-head h2{
+    color: #6a7079;
+}
+.speakers h3{
+    color: #777a7d;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.speakers-footer{
+    margin-top: 70px;
+}
+.item div{
+    position: relative;
+    cursor: pointer;
+}
+.front{
+    position: absolute;
+}
+.back{
+    width: 140px;
+    height: 140px;
+    background: #6bd8d3;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 0;
+}
+.back i{
+    line-height: 140px;
+    font-size: 30px;
+    color: #fff;
+}
+.item div:hover .front{
+    opacity: 0.2;
+}
+.item div:hover .back{
+     opacity: 1;
+}
+.item div:hover h3{
+    color: #6bd8d3;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
 }
 /* Medium Devices, Desktops */
 @media screen and (max-width : 992px) {
-
+    .speakers-head,
+    .speakers-footer{
+        margin: 25px 0;
+    }
+    #speakers{
+        padding: 25px 0;
+    }
+    .row-item-col{
+        margin: 20px 0;
+    }
 }
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
