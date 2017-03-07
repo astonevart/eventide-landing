@@ -258,5 +258,12 @@ h2{
 @media screen and (max-width : 480px) {
     .collapse-link{
         font-size: 13px;
+        display: block;
     }
+    .fa{
+        position: relative;
+        left: 0;
+        top: -20px;
+    }
+
 }
