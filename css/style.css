@@ -241,6 +241,9 @@ h2{
     .row-item{
         margin-top: 20px;
     }
+    #events{
+        padding: 50px 0;
+    }
 }
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
