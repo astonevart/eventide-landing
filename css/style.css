@@ -260,7 +260,7 @@ h2{
         font-size: 13px;
         display: block;
     }
-    .fa{
+    .button .fa{
         position: relative;
         left: 0;
         top: -20px;
