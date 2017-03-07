@@ -268,5 +268,8 @@ h2{
         left: 0;
         top: -20px;
     }
+    #events{
+        padding: 20px 0;
+    }
 
 }
