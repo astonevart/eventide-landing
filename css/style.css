@@ -10,10 +10,11 @@ a{
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 17px;
-    color: #0a94b2;
+    color: #2cc7c1;
 }
 a:hover{
-    color: #0a94b2;
+    color: #1db3ad;
+    text-decoration: none;
 }
 img{
     max-width: 100%;
@@ -89,7 +90,7 @@ h2{
 /*========================================speakers=======================================*/
 #speakers{
     padding: 90px 0;
-    border-bottom: 2px solid #f0f0f1;
+    border-bottom: 7px solid #f0f0f1;
 }
 #speakers h2{
     color: #828689;
@@ -179,6 +180,48 @@ h2{
 .item div:hover h3{
     color: #6bd8d3;
 }
+/*========================================events=======================================*/
+#events{
+    padding: 90px 0;
+}
+.link{
+    text-transform: uppercase;
+}
+.time{
+    background: #2cc7c1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 5px;
+    border-radius: 2px;
+    margin-right: 25px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.button{
+    margin-bottom: 10px;
+    display: block;
+}
+.button:focus, .button:hover{
+    outline: 0;
+    text-decoration: none;
+}
+.collapse-link{
+    color: #747a84;
+    font-weight: 500;
+    font-size: 18px;
+}
+.collapse-state{
+    color: #2cc7c1;
+}
+.content-collapse{
+  padding-bottom: 10px;
+}
+.row-item{
+    margin-top: 100px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -195,12 +238,25 @@ h2{
     .row-item-col{
         margin: 20px 0;
     }
+    .row-item{
+        margin-top: 20px;
+    }
 }
 /* Small Devices, Tablets */
 @media screen and (max-width : 768px) {
+    .collapse-link{
+        font-size: 15px;
+    }
+    .time{
+        width: 92px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
 
 }
 /* Extra Small Devices, Phones */
 @media screen and (max-width : 480px) {
-
+    .collapse-link{
+        font-size: 13px;
+    }
 }
