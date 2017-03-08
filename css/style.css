@@ -249,7 +249,49 @@ h2{
 .section-form select{
     height: 44px;
     padding-right: 25px;
-
+}
+#form .form-control-feedback{
+    top: 14px;
+    right: 16px;
+}
+.has-success .form-control-feedback{
+    color: #2cc7c1;
+}
+.has-success .form-control{
+    border-color: #2cc7c1;
+}
+.select2-container--default .select2-selection--single{
+    height: 44px;
+    text-align: left;
+    background: #efefef;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 44px;
+    color: #bebebe;
+}
+.select2-container--open .select2-selection--single{
+    background: #2cc7c1;
+}
+.select2-container--open .select2-selection--single .select2-selection__rendered{
+    color: #fff;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 10px;
+}
+li.select2-results__option:first-child{
+    display: none;
+}
+.select2-results__options .select2-results__option.select2-results__option--highlighted, .select2-results__option, .select2-container--default .select2-results__option[aria-selected="true"]{
+    background: #525b64;
+}
+.select2-results__option{
+    color: #2cc7c1;
+}
+/*================================sponsors============================*/
+#sponsors{
+    background: #fff;
+    text-align: center;
+    padding: 60px 0;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -267,15 +309,21 @@ h2{
     .row-item-col{
         margin: 10px 0;
     }
-    .row-item{
+    .row-item, .section-form{
         margin-top: 10px;
     }
-    #events{
+    #events, #form{
         padding: 50px 0;
     }
     .link{
         margin-bottom: 10px;
         display: inline-block;
+    }
+    #sponsors{
+        padding: 20px 0 0;
+    }
+    #sponsors img{
+        margin-bottom: 20px;
     }
 }
 /* Small Devices, Tablets */
@@ -288,7 +336,6 @@ h2{
         font-size: 16px;
         margin-right: 10px;
     }
-
 
 }
 /* Extra Small Devices, Phones */
