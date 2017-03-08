@@ -5,5 +5,6 @@ $(function () {
     });
     $('.collapse').on('hide.bs.collapse', function () {
         $(this).prev().find('.fa').removeClass().addClass('fa fa-plus-circle');
-    })
+    });
+    $('#myForm').validator();
 });
