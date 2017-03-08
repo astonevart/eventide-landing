@@ -291,7 +291,7 @@ li.select2-results__option:first-child{
 #sponsors{
     background: #fff;
     text-align: center;
-    padding: 60px 0;
+    padding: 61px 0;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
