@@ -223,7 +223,7 @@ h2{
     margin-top: 100px;
 }
 .carousel-indicators{
-   left: 15%;
+    left: 15%;
     bottom: -3px;
 }
 .carousel-indicators li{
@@ -293,5 +293,8 @@ h2{
     }
     .row-item-col{
         margin: 5px 0;
+    }
+    .carousel-indicators{
+        left: 10%;
     }
 }
