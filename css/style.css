@@ -337,6 +337,18 @@ li.select2-results__option:first-child{
     color: #cacaca;
     font-size: 14px;
 }
+.go-to-top {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+/* Переназначаем убогие стили самого Бутстрапа */
+.go-to-top.btn-lg {
+    padding: 10px 15px;
+    border-radius: 3px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
