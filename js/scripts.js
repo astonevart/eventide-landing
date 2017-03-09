@@ -16,7 +16,7 @@ $(function () {
         minimumResultsForSearch: Infinity
     });
     wow = new WOW({
-        offset: 100
+        offset: 70
     });
     wow.init();
 });
