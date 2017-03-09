@@ -15,4 +15,8 @@ $(function () {
     $('.form-sel').select2({
         minimumResultsForSearch: Infinity
     });
+    wow = new WOW({
+        offset: 100
+    });
+    wow.init();
 });
