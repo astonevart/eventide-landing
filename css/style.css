@@ -343,6 +343,7 @@ li.select2-results__option:first-child{
     position: fixed;
     bottom: 15px;
     right: 15px;
+    background: #2cc7c1;
 }
 /* Переназначаем убогие стили самого Бутстрапа */
 .go-to-top.btn-lg {
